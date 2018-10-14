@@ -19,12 +19,12 @@ public class Helloworld{
 			s1=s.trim();
 			    name.add(s1);
 				count ++;
-			}
-			   System.out.print("Hello World This is TDTU"+"\n");
-			   System.out.print("Total"+" "+count+" "+"Students"+"\n");
+			} 
+			    System.out.print("Hello World This is TDTU"+"\n");
 			   for(int i = 0;i<name.size();i++){
 			   System.out.print("Hello World I am"+" "+name.get(i)+"\n");
 	            }
+				System.out.print("Total"+" "+count+" "+"Students"+"\n");
 			}
 			catch(Exception e) {
 			e.printStackTrace();
